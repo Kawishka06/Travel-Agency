@@ -8,6 +8,8 @@ This GitHub repository contains the front-end source code for a responsive and u
 
 <li><b>CSS</b> – for styling the layout, colors, and typography</li>
 
+<li><b>Java Script</b> – for number incrementers, and alert boxes</li>
+
 <li><b>Images & Assets</b> – used to visually represent travel destinations, enhancing user engagement</li>
 </ul>
 <br>
