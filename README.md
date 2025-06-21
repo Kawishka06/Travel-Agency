@@ -1,6 +1,7 @@
 <center><b>📁 GitHub Front-End Repository Description – Travel Website</b></center>
 <br><br>
 This GitHub repository contains the front-end source code for a responsive and user-friendly travel website. The project is built using standard web technologies, including:
+<br>
 <ul>
   
 <li><b>HTML</b> – for structuring the web pages</li>
@@ -10,7 +11,7 @@ This GitHub repository contains the front-end source code for a responsive and u
 <li><b>Images & Assets</b> – used to visually represent travel destinations, enhancing user engagement</li>
 </ul>
 <br>
-The front end showcases key features such as:
+The front end showcases key features such as:<br>
 <ul>
 <li>A homepage highlighting the beauty and uniqueness of Sri Lanka</li>
 
