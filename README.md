@@ -1,4 +1,4 @@
-<b>📁 GitHub Front-End Repository Description – Travel Website</b>
+<center><b>📁 GitHub Front-End Repository Description – Travel Website</b></center>
 <br><br>
 This GitHub repository contains the front-end source code for a responsive and user-friendly travel website. The project is built using standard web technologies, including:
 <ul>
