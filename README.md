@@ -1,14 +1,24 @@
-🌐 Front-End Description
-The front end of the website represents the user interface and user experience — the part of the site that visitors see and interact with directly. It is built using HTML, CSS, and JavaScript to ensure a visually appealing and responsive layout.
+📁 GitHub Front-End Repository Description – Travel Website
+<br>
+This GitHub repository contains the front-end source code for a responsive and user-friendly travel website. The project is built using standard web technologies, including:
+<ul>
+  
+<li><b>HTML</b> – for structuring the web pages</li>
 
-HTML (HyperText Markup Language) structures the content, such as text, images, and buttons.
+<li><b>CSS</b> – for styling the layout, colors, and typography</li>
 
-CSS (Cascading Style Sheets) styles the content by defining colors, fonts, layouts, spacing, and responsive behavior across devices.
+<li><b>Images & Assets</b> – used to visually represent travel destinations, enhancing user engagement</li>
+</ul>
+<br>
+The front end showcases key features such as:
+<ul>
+<li>A homepage highlighting the beauty and uniqueness of Sri Lanka</li>
 
-Images and icons are used to enhance visual engagement and branding.
+<li>Dedicated sections for popular destinations, travel packages, contact information, and customer testimonials</li>
 
-The design follows a clean and modern layout, with an intuitive navigation bar, informative sections, and responsive elements that adapt to different screen sizes.
+<li>An intuitive user interface for smooth navigation</li>
+</ul>
+<br>
+This repository serves as the <b> visual layer</b> of the website, allowing visitors to explore travel information easily and attractively. All content and layout elements are static, making it ideal for hosting on GitHub Pages or integrating with a backend in future development.
 
-The interface is user-friendly, ensuring a smooth experience whether accessed via desktop, tablet, or mobile.
 
-This front-end acts as the visual and interactive layer of the website, connecting users to the content and features of the platform in an elegant and functional manner.
