@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            About Us
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <header>
+           <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo">Pearl Island Getaways</div>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="package.html">Packages</a></li>
+                        <li><a href="destination.html">Destinations</a></li>
+                        <li><a href="enquire.html">Enquiries</a></li>
+                        <button><a href="sign.html">Sign In</a></button>
+                    </ul>
+            </div>
+           </nav> 
+        </header>
+
+
+        <div class="cover-image2">
+            <h1>Let's Explore Sri Lanka Together</h1>
+        </div>
+
+        <div class="about-who">
+            <h1>Who We Are</h1>
+            <p>
+                At Pearl Island Getaways, we are passionate storytellers, explorers, and hosts — united by our love for Sri Lanka.
+                As a local travel company, our mission is to share the magic of this beautiful island with the world.
+
+                We specialize in creating unforgettable travel experiences that reflect the rich culture, breathtaking nature, 
+                vibrant traditions, and warm hospitality of Sri Lanka. From misty mountains to sun-kissed shores, ancient temples to
+                bustling markets, we guide travelers through the soul of the island — one journey at a time.
+
+                Our team is made up of local experts who know every hidden gem and every scenic route. Whether you're an adventurer,
+                a history lover, a beach seeker, or a foodie, we tailor each getaway to match your travel dreams.
+
+                At Pearl Island Getaways, we don't just offer holidays — we craft memories.
+            </p>
+            <h1>Our Vision</h1>
+            <p>
+                To be Sri Lanka's most trusted travel brand, inspiring global travelers to discover the island's beauty, culture, and
+                 soul through unforgettable experiences.
+            </p>
+            <h1>Our Mission</h1>
+            <p>
+                To craft personalized, meaningful, and sustainable travel journeys that showcase the authentic charm of Sri Lanka 
+                — while supporting local communities and preserving nature.
+            </p>
+        </div>
+
+        <div id="counter-container">
+            <div class="counter-box">
+                    <div id="counter-travellers" class="counter">0</div>
+                    <h2>Customer Reviews</h2>
+            </div>
+
+            <div class="counter-box">
+                    <div id="counter-packages" class="counter">0</div>
+                    <h2>Packages</h2>
+            </div>
+            <div class="counter-box">
+                    <div id="counter-destinations" class="counter">0</div>
+                    <h2>Destinations</h2>
+            </div>
+        </div>
+
+        <script>
+                function animateCounter(id, target, speed) {
+                    let count = 0;
+                    const element = document.getElementById(id);
+
+                    const increment = () => {
+                        if (count < target) {
+                            count++;
+                            element.innerText = count;
+                            setTimeout(increment, speed);
+                        } else {
+                            element.innerText = target + "+";
+                        }
+                    };
+
+                    increment();
+                }
+
+                // Run all three counters
+                animateCounter("counter-travellers", 1000, 0.7);
+                animateCounter("counter-packages", 20, 150);
+                animateCounter("counter-destinations", 100, 50);
+        </script>
+
+        <div class="customer">
+            <h1>Customer Testimonials</h1>
+        </div>
+        <div class="testimonials">
+            <div class="test-desc">
+                <h3>👨‍🦱 Peter Kevinsky <br> UK</h3>
+                <p>
+                    Pearl Island Getaways gave me the most magical two weeks of my life! From the cultural tours in Kandy to the
+                    sunsets in Mirissa, every moment was perfectly planned. I felt safe, cared for, and completely in awe of Sri
+                    Lanka's beauty.
+                </p>
+                <div class="rating">⭐⭐⭐⭐⭐</div>
+            </div>
+
+             <div class="test-desc">
+                <h3>👩‍🎓 Lara Jean <br> USA</h3>
+                <p>
+                    I booked a nature and wildlife package with my family, and we were blown away! The safari in Yala and the hike to
+                    Ella Rock were unforgettable. Thanks to the team for making it stress-free and fun for all of us.
+                </p>
+                <div class="rating">⭐⭐⭐⭐⭐</div>
+            </div>
+
+             <div class="test-desc">
+                <h3>👱‍♂️ Cole Walter <br> Mexico</h3>
+                <p>
+                    As a solo traveler, I was nervous about my trip—but Pearl Island Getaways made it so easy. They customized everything
+                    to suit my pace, and I met amazing locals through their recommendations. Sri Lanka truly felt like home.
+                </p>
+                <div class="rating">⭐⭐⭐⭐⭐</div>
+            </div>
+
+             <div class="test-desc">
+                <h3>👩‍🦰 Katherine Covey <br> Netherland</h3>
+                <p>
+                    Incredible service and even better adventures! I surfed, hiked, and explored ancient ruins, all in one trip. The 
+                    team really knows how to blend fun with cultural depth. 10/10 would book again!"
+                </p>
+                <div class="rating">⭐⭐⭐⭐⭐</div>
+            </div>
+            </div>
+        
+
+
+        <footer class="footer-section">
+        <div class="section-content">
+            <h5>Connect With Us on</h5>
+            <a href="https://www.facebook.com/"><img src="https://i.postimg.cc/x8XKvqt3/fb.png" alt="facebook"></a> 
+            <a href="https://www.instagram.com/accounts/login/?hl=en"><img src="https://i.postimg.cc/3w3mLttR/insta.png" alt="instagram"></a>
+            <a href="https://www.youtube.com/"><img src="https://i.postimg.cc/cHb3L00g/youtube.png" alt="youtube"></a>
+            <a href="https://x.com/i/flow/login?lang=en"><img src="https://i.postimg.cc/25jTqjR2/x.png" alt="X"></a>
+            <a href="https://web.whatsapp.com/#!"><img src="https://i.postimg.cc/bJsTT6vn/whatsapp.png" alt="whatsapp"></a>
+            <a href="https://www.tripadvisor.com/"><img src="https://i.postimg.cc/DZHcYqWM/trip.png" alt="trip advisor"></a>
+            <p class="copyright-text">© 2025 Pearl Island Getaways. All rights reserved.</p>
+        </div>
+         </footer>
+
+    </body>
+</html>
